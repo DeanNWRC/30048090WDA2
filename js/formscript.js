@@ -1,4 +1,5 @@
 function myFormSubmits(event) {
+    console.log("Access")
 event.preventDefault(); // Prevent the default form submission
 // Call the custom functions you want to execute before submitting the form
 downloadFormData();
